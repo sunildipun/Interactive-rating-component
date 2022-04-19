@@ -7,8 +7,10 @@ const ratingList = menu.children;
 const sumbitButton = document.querySelector('.submit');
 
 const thankyouCard = document.querySelector('.card-thank');
-console.log('thank you', thankyouCard);
 thankyouCard.style.display = 'none'; // Hiding the thanks you card
+
+const ratingValue = document.querySelector('#ratingValue');
+
 
 //adding click event to sumbit button
 sumbitButton.addEventListener('click', event => {
@@ -18,14 +20,13 @@ sumbitButton.addEventListener('click', event => {
 
 let selectedRating;
 
-console.log(menu, ratingList);
 document.querySelectorAll('#rating').forEach(item => {
-    console.log(item, item.id);
     item.addEventListener('click', event => {
         if(selectedRating != null) {
             selectedRating.id = 'rating';
         };
         item.id = 'selected';
+        ratingValue.textContent = item.textContent;
         selectedRating = item;
     });
 });
