@@ -100,9 +100,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.sunilbehera.online)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/last_sunil_404)
+- Website - [Sunil Behera](https://www.sunilbehera.online)
+- Frontend Mentor - [@sunilbehera](https://www.frontendmentor.io/profile/sunildipun)
+- Twitter - [@last_sunil_404](https://www.twitter.com/last_sunil_404)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
