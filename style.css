@@ -25,17 +25,15 @@
   }
 
   .card {
-    width: 90%;
+    width: 28%;
     background-color: var(--darkBlue);
     padding: 2em;
     border-radius: 1.5em;
     display: flex;
     flex-direction: column;
+    /* height: 20%; */
   }
 
-  .card-rating {
-      
-  }
 
   .icon-star span {
       padding: 1em;
@@ -83,6 +81,11 @@
       background-color: var(--orange);
   }
 
+  #selected {
+      background-color: var(--lightGrey);
+      color: var(--white)
+  }
+
   .submit {
     display: flex;
     border-radius: 8rem;
@@ -101,3 +104,35 @@
       background-color: var(--white);
   }
 
+  .card-thank {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .selected-rating {
+        background-color: var(--mediumGrey);
+        padding: 0.5em 1em;
+        font-size: 0.8rem;
+        border-radius: 4rem;
+        color: var(--orange);
+  }
+
+  .thank__header {
+      color: var(--white);
+      font-size: 1.6rem;
+  }
+
+  .thank__content {
+      color: var(--lightGrey);
+      font-size: 1rem;
+      margin-top: 0;
+      text-align: center;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
+  }
