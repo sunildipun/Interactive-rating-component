@@ -27,6 +27,5 @@ document.querySelectorAll('#rating').forEach(item => {
         };
         item.id = 'selected';
         selectedRating = item;
-        console.log('Clicked', item)
     });
 });
